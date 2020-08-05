@@ -3,7 +3,7 @@ var primaParola = prompt("inserisci prima parola");
 // seconda parola
 var secondaParola = prompt("inserisci seconda parola");
 // calcolo lunghezza parole e stampa
-if(primaParola.length > secondaParola.length) {
+if (primaParola.length > secondaParola.length) {
   document.getElementById("lunga").innerHTML = primaParola;
   document.getElementById("corta").innerHTML = secondaParola;
 }
