@@ -1,5 +1,5 @@
 // numero
-var primoNumero = prompt("inserisci numero");
+var primoNumero = parseInt(prompt("inserisci numero"));
 var numeroSuccessivo = (primoNumero + 1);
 // verifica primo numero
 if (primoNumero % 2 == 0) {
